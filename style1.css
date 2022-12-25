@@ -5,15 +5,17 @@
     margin-right: 0;
     font-family: 'Poppins', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 nav
 {
     background-color: #88A47C;
     padding-top: 15px;
     padding-bottom: 1px;
+    text-align: center;
     color: #fff;
 }
-#nav2
+.nav2
 {
-    text-align: center;
+    display: flex;
+    justify-items: flex-start;
 }
+
