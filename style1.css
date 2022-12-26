@@ -5,17 +5,33 @@
     margin-right: 0;
     font-family: 'Poppins', sans-serif;
 }
-nav
+.nav1
 {
     background-color: #88A47C;
-    padding-top: 15px;
-    padding-bottom: 1px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     color: #fff;
+    position: relative;
 }
-.nav2
+.nav1 h2
+{
+    font-size: 20px;
+    margin: 0;
+}
+
+/* .nav2
 {
     display: flex;
-    justify-items: flex-start;
+    word-spacing: 20px;
+    justify-content: space-between;
+    padding-left: 500px;
+} */
+.nav2 img
+{
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
