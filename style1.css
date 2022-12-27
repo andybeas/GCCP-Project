@@ -4,6 +4,7 @@
     margin-left: 0;
     margin-right: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 .nav1
 {
@@ -28,10 +29,49 @@
     justify-content: space-between;
     padding-left: 500px;
 } */
-.nav2 img
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+li, a, button
+{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.logo
+{
+    cursor: pointer;
+}
+.nav2
+{
+    list-style: none;
+
+}
+.nav2 li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav2 li a
+{
+    transition: all 0.3s ease 0s;
+}
+.nav2 li a:hover
+{
+    color: red;
+}
+
+/* .nav2 img
 {
     width: 80px;
     margin-left: 20px;
     margin-top: 8px;
-}
+    margin-bottom: 5px;
 
+} */
