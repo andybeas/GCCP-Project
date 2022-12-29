@@ -47,7 +47,7 @@ li, a, button
 .logo
 {
     cursor: pointer;
-    width: 80px;
+    width: 200px;
     margin-right: auto;
     mix-blend-mode: color-burn;
 }
@@ -90,6 +90,11 @@ button:hover
 {
     color: rgb(255, 204, 0);
 }
+.ftr
+{
+    display: flex;
+    direction: column;
+}
 /* .nav2 img
 {
     width: 80px;
@@ -97,3 +102,13 @@ button:hover
     margin-top: 8px;
     margin-bottom: 5px;
 } */
+.frm
+{
+    margin-left: 45px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.inpt1
+{
+    
+}

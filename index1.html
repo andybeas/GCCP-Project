@@ -19,7 +19,7 @@
         <h2>IMPROVED DISASTER RESPONSE WITH REAL TIME LOCATION MONITORING</h2>
       </nav>
       <header>
-        <img class="logo" src="logo.jpg" alt="" />
+        <img class="logo" src="logo.png" alt="" />
         <nav>
           <ul class="nav2">
             <li><a href="#">Home</a></li>
@@ -30,21 +30,74 @@
         <a class="btn" href="#"><button>Donate Now</button></a>
       </header>
     </div>
-    <hr />
-    <footer>
+    <div>
+      <form class="frm" name="sos" id="sos" action="/" method="POST">
+        <table>
+            <tr>
+                <td>Cause of Distress:</td>
+                <td>
+                    <select required>
+                        <option></option>
+                        <option>Floods</option>
+                        <option>Earthquake</option>
+                        <option>Plague</option>
+                        <option>Covid-19</option>
+                        <option>Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Specify Resources:</th>
+            </tr>
+            <tr>
+                <td>Food and Water:</td>
+                <td><input class="inpt1" type="number" name="" required></td>
+            </tr>
+            <tr>
+                <td>Medicine Units:</td>
+                <td><input class="inpt2" type="number" name="" required></td>
+            </tr>
+            <tr>
+                <td>Add a personal note:</td>
+                <td>
+                    <textarea name="" id="" cols="25" rows="5" placeholder="Important note (if any)"></textarea>
+                </td>
+            </tr>
+        </table>
+        <!-- <div> 
+          <h1 id="fullname">Full name:</h1>
+              <input type="text" id="name" name="name"><br>
+          <h1>Cause of Distress:</h1>
+          <select name="disaster" id="calamity" form="sos" required>
+            <option value="Floods"></option>
+            <option value="Floods">Floods</option>
+            <option value="Earthquake">Earthquake</option>
+            <option value="Drought">Drought</option>
+            <option value="Plague">Plague</option>
+            <option value="Other">Other</option>
+          </select>
+          <h2 id="resources">Specify Resources:</h2>
+          <label for="FW">Food and Water:</label><br />
+          <input type="number" min="0" name="FW" id="FW" /><br />
+          <label for="Med">Medicine:</label><br />
+          <input type="number" min="0" name="Med" id="Med" /><br />
+          <label for="Cloth">Clothing and Cover:</label><br>
+              <input type="number" min="0" name="Cloth" id="Cloth"><br>
+          <br />
+          <label for="note"><h3>Add a personal note</h3></label><br />
+          <input type="text" name="note" id="note" />
+        </div>
+        <br /> -->
+        <input class="btn" type="image" src="https://cdn-icons-png.flaticon.com/512/1403/1403474.png" height="100px"/>
+      <!-- </form>
+    </div>  -->
+    <!-- <hr/> -->
+    <!-- <footer class="ftr">
       <div>
         <p>
-          Model created for GCCP Project |
-          <a href="mailto: cloudnine.gcp@gmail.com">Reach us by mail</a>
+          Model created for GCCP Project | <a href="mailto: cloudnine.gcp@gmail.com">Reach us by mail</a>
         </p>
         <p>Copyright &copy; All rights reserved.</p>
-        <!-- <p id="p1">
-            Model created for GCCP Project | 
-          </p>
-          <br>
-          <p id="p2">
-            Copyright &copy; All rights reserved. -->
-      </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
