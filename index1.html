@@ -30,13 +30,14 @@
         <a class="btn" href="#"><button>Donate Now</button></a>
       </header>
     </div>
+    <hr>
     <div>
       <form class="frm" name="sos" id="sos" action="/" method="POST">
         <table>
             <tr>
                 <td>Cause of Distress:</td>
                 <td>
-                    <select required>
+                    <select class="cause" required>
                         <option></option>
                         <option>Floods</option>
                         <option>Earthquake</option>
@@ -46,9 +47,9 @@
                     </select>
                 </td>
             </tr>
-            <tr>
-                <th>Specify Resources:</th>
-            </tr>
+            </table>
+            <h1 class="specify">Specify Resources:</h1>
+            <table>
             <tr>
                 <td>Food and Water:</td>
                 <td><input class="inpt1" type="number" name="" required></td>
@@ -60,7 +61,7 @@
             <tr>
                 <td>Add a personal note:</td>
                 <td>
-                    <textarea name="" id="" cols="25" rows="5" placeholder="Important note (if any)"></textarea>
+                    <textarea class="note" id="" cols="25" rows="5" placeholder="Important note (if any)"></textarea>
                 </td>
             </tr>
         </table>

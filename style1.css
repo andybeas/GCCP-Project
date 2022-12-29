@@ -110,5 +110,41 @@ button:hover
 }
 .inpt1
 {
-    
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.inpt2
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.note
+{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.cause
+{
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+h1
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    font-weight: 800;
+    font-size: 45px;
+    color: red;
 }
