@@ -14,7 +14,7 @@
     <title>Home | IDR</title>
   </head>
   <body>
-    <div class="">
+    <div class="register">
       <nav class="nav1">
         <h2>IMPROVED DISASTER RESPONSE WITH REAL TIME LOCATION MONITORING</h2>
       </nav>
@@ -30,43 +30,50 @@
         <a class="btn" href="#"><button>Donate Now</button></a>
       </header>
     </div>
-    <hr>
-    <div>
+    <hr />
+    <div class="everything">
       <form class="frm" name="sos" id="sos" action="/" method="POST">
-        <table>
-            <tr>
-                <td>Cause of Distress:</td>
-                <td>
-                    <select class="cause" required>
-                        <option></option>
-                        <option>Floods</option>
-                        <option>Earthquake</option>
-                        <option>Plague</option>
-                        <option>Covid-19</option>
-                        <option>Others</option>
-                    </select>
-                </td>
-            </tr>
-            </table>
-            <h1 class="specify">Specify Resources:</h1>
-            <table>
-            <tr>
-                <td>Food and Water:</td>
-                <td><input class="inpt1" type="number" name="" required></td>
-            </tr>
-            <tr>
-                <td>Medicine Units:</td>
-                <td><input class="inpt2" type="number" name="" required></td>
-            </tr>
-            <tr>
-                <td>Add a personal note:</td>
-                <td>
-                    <textarea class="note" id="" cols="25" rows="5" placeholder="Important note (if any)"></textarea>
-                </td>
-            </tr>
+        <table class="tab1">
+          <tr>
+            <td>Cause of Distress:</td>
+            <td>
+              <select class="cause" required>
+                <option></option>
+                <option>Floods</option>
+                <option>Earthquake</option>
+                <option>Plague</option>
+                <option>Covid-19</option>
+                <option>Others</option>
+              </select>
+            </td>
+          </tr>
         </table>
-        <!-- <div> 
-          <h1 id="fullname">Full name:</h1>
+        <h1 class="specify">Specify Resources:</h1>
+        <table>
+          <tr>
+            <td>Food and Water:</td>
+            <td><input class="inpt1" type="number" name="" required /></td>
+          </tr>
+          <tr>
+            <td>Medicine Units:</td>
+            <td><input class="inpt2" type="number" name="" required /></td>
+          </tr>
+          <tr>
+            <td>Add a personal note:</td>
+            <td>
+              <textarea
+                class="note"
+                id=""
+                cols="25"
+                rows="5"
+                placeholder="Important note (if any)"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        <!-- <div>  -->
+
+        <!-- <h1 id="fullname">Full name:</h1>
               <input type="text" id="name" name="name"><br>
           <h1>Cause of Distress:</h1>
           <select name="disaster" id="calamity" form="sos" required>
@@ -89,16 +96,23 @@
           <input type="text" name="note" id="note" />
         </div>
         <br /> -->
-        <input class="btn" type="image" src="https://cdn-icons-png.flaticon.com/512/1403/1403474.png" height="100px"/>
-      <!-- </form>
+        <input class="btn8"
+          type="image"
+          src="https://cdn-icons-png.flaticon.com/512/1403/1403474.png"
+          height="100px"
+        />
+        <!-- <img class="bg" src="bgimg.png" alt=""> -->
+        <!-- </form>
     </div>  -->
-    <!-- <hr/> -->
-    <!-- <footer class="ftr">
+        <!-- <hr/> -->
+        <!-- <footer class="ftr">
       <div>
         <p>
           Model created for GCCP Project | <a href="mailto: cloudnine.gcp@gmail.com">Reach us by mail</a>
         </p>
         <p>Copyright &copy; All rights reserved.</p>
     </footer> -->
+      </form>
+    </div>
   </body>
 </html>

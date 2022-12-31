@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+/* .everything
+{
+    background-image: url("bgimg.pcng");
+    background-size: 70%;
+} */
 .nav1
 {
     background-color: #6b8e5c;
@@ -104,9 +109,10 @@ button:hover
 } */
 .frm
 {
-    margin-left: 45px;
+    margin-left: 90px;
     margin-top: 40px;
     font-size: 25px;
+    padding-left: 350px;
 }
 .inpt1
 {
@@ -133,18 +139,24 @@ button:hover
 }
 .cause
 {
-    margin-left: 30px;
+    margin-left: 64px;
     width: 150px;
     height: 30px;
     border-radius: 30px;
     margin-bottom: 20px;
+    font-weight: 900;
 }
 h1
 {
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-left: 200px;
+    padding-left: 60px;
     font-weight: 800;
     font-size: 45px;
     color: red;
+}
+.btn8
+{
+    padding-left: 250px;
+    margin-top: 20px;
 }
