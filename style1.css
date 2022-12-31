@@ -6,11 +6,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-/* .everything
-{
-    background-image: url("bgimg.pcng");
-    background-size: 70%;
-} */
 .nav1
 {
     background-color: #6b8e5c;
@@ -27,13 +22,6 @@
     font-size: 20px;
     margin: 0;
 }
-/* .nav2
-{
-    display: flex;
-    word-spacing: 20px;
-    justify-content: space-between;
-    padding-left: 500px;
-} */
 header
 {
     display: flex;
@@ -99,14 +87,15 @@ button:hover
 {
     display: flex;
     direction: column;
+    font-size: 40;
+    text-align: center;
+    padding-left: 500px;
+    background-color: rgb(255, 204, 0);
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 900;
+    padding-top: 15px;
 }
-/* .nav2 img
-{
-    width: 80px;
-    margin-left: 20px;
-    margin-top: 8px;
-    margin-bottom: 5px;
-} */
 .frm
 {
     margin-left: 90px;
